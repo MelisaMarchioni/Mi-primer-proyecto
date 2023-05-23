@@ -1,148 +1,159 @@
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.navbar-brand img{
-    height: 64px;
+h1 {
+  color: #EE7674;
 }
 
-.container{
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(to bottom, #fefcfb, #1282A2, #034078);
-    
-}
-/*# sourceMappingURL=style.css.map */
-
-.carrusel{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;    
+h5 {
+  color: #EE7674;
 }
 
-h1{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
 }
 
-h5{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
+h5 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
 }
 
-.aventura{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
+.aventura {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
 }
 
-p{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 200;
+p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
 }
 
-.section-contacto{
-    margin: 50px 0;
-    display: flex;
-    justify-content: center;
-    gap: 50px;
+.navbar-brand img {
+  height: 64px;
 }
 
-.contacto{
-    display: grid;
-    grid-template-rows: repeat (4, 50px);
-    grid-template-columns: repeat (3, 60px);
-    row-gap: 5px;
-    column-gap: 5px;
-    width: 20%;
-    height: 30%;
+.btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  width: 140px;
+  height: 40px;
+  background-color: #D0D6B5;
+  text-align: center;
+  color: black;
+  border-radius: 20px;
+  border: 1px solid black;
+  cursor: pointer;
 }
 
-img{
-    width: 100%;
-    height: 100%;
+.container {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, #fefcfb, #1282A2, #034078);
+  box-sizing: border-box;
 }
 
-.img-1 {
-    grid-column: 1 / 3;
+.carrusel {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.img-5 {
-    grid-row: 2 / 4;
-    grid-column: 3 / 4;
+.section-contacto {
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.section-contacto .contacto {
+  display: grid;
+  grid-template-rows: repeat 4, 50px;
+  grid-template-columns: repeat 3, 60px;
+  row-gap: 5px;
+  column-gap: 5px;
+  width: 20%;
+  height: 30%;
+}
+.section-contacto img {
+  width: 100%;
+  height: 100%;
+}
+.section-contacto .img-1 {
+  grid-column: 1/3;
+}
+.section-contacto .img-5 {
+  grid-row: 2/4;
+  grid-column: 3/4;
+}
+.section-contacto .img-6 {
+  grid-column: 2/3;
+  grid-row: 3/5;
 }
 
-.img-6{
-    grid-column: 2 / 3;
-    grid-row: 3 / 5;
+.section-info {
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.section-info .container-text {
+  width: 30%;
 }
 
-.section-info{
-    margin: 50px 0;
-    display: flex;
-    justify-content: center;
-    gap: 50px;
+.section-info img {
+  width: 30%;
+  height: 30%;
 }
 
-.section-info img{
-    width: 30%;
-    height: 30%;
-}
-
-.container-text{
-    width: 30%;
-}
-
-.section-Lapio{
-    margin: 20px 20px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+.section-Lapio {
+  margin: 20px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 @media screen and (max-width: 600px) {
-    .formulario{
-        width: 80%!important;
-    }
+  .formulario {
+    width: 80% !important;
+  }
+}
+footer {
+  display: flex;
+  background-color: #82b4c2;
+  justify-content: center;
 }
 
-.meli-blog{
-    display: flex;
-    justify-content: center;
+.meli-blog {
+  display: flex;
+  justify-content: center;
 }
 
-.meli-blog img{
-    width:200px;
-    transition: all 1s;
+.meli-blog img {
+  width: 200px;
+  transition: all 1s;
 }
 
-.meli-blog img:hover{
-    transform: rotate(360deg);
+.meli-blog img:hover {
+  transform: rotate(360deg);
 }
 
-.meli-contacto{
-    display: flex;
-    justify-content: center;
+.meli-contacto {
+  display: flex;
+  justify-content: center;
 }
 
-.meli-contacto img{
-    width:200px;
-    transition: all 1s;
+.meli-contacto img {
+  width: 200px;
+  transition: all 1s;
 }
 
-.meli-contacto img:hover{
-    transform: translateX(250px) rotate(360deg);
+.meli-contacto img:hover {
+  transform: translateX(250px) rotate(360deg);
 }
 
-
-footer{
-    display: flex;
-    background-color: #82b4c2;
-    justify-content: center;
-}
-
-
+/*# sourceMappingURL=style.css.map */
