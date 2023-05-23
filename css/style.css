@@ -109,7 +109,35 @@ img{
         width: 80%!important;
     }
 }
-    
+
+.meli-blog{
+    display: flex;
+    justify-content: center;
+}
+
+.meli-blog img{
+    width:200px;
+    transition: all 1s;
+}
+
+.meli-blog img:hover{
+    transform: rotate(360deg);
+}
+
+.meli-contacto{
+    display: flex;
+    justify-content: center;
+}
+
+.meli-contacto img{
+    width:200px;
+    transition: all 1s;
+}
+
+.meli-contacto img:hover{
+    transform: translateX(250px) rotate(360deg);
+}
+
 
 footer{
     display: flex;
